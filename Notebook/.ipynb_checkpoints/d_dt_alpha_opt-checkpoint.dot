@@ -1,0 +1,4 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="mse = 3.292\nsamples = 90\nvalue = 38.82"] ;
+}

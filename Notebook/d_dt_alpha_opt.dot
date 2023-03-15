@@ -1,0 +1,16 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Nephritis <= 0.5\nmse = 3.292\nsamples = 90\nvalue = 38.82"] ;
+1 [label="Lumbar Pain <= 0.5\nmse = 1.901\nsamples = 50\nvalue = 37.596"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Bladdar Inflammation <= 0.5\nmse = 2.275\nsamples = 34\nvalue = 37.915"] ;
+1 -> 2 ;
+3 [label="mse = 0.247\nsamples = 7\nvalue = 40.686"] ;
+2 -> 3 ;
+4 [label="mse = 0.294\nsamples = 27\nvalue = 37.196"] ;
+2 -> 4 ;
+5 [label="mse = 0.432\nsamples = 16\nvalue = 36.919"] ;
+1 -> 5 ;
+6 [label="mse = 0.817\nsamples = 40\nvalue = 40.35"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
